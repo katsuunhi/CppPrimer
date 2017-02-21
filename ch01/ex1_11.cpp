@@ -1,12 +1,13 @@
 // Print each number in the range specified by two integers.
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
     int small = 0, big = 0;
-    std::cout << "please input two integers:";
-    std::cin >> small >> big;
+    cout << "please input two integers:";
+    cin >> small >> big;
 
     if (small > big) {
         int tmp = small;
@@ -15,10 +16,10 @@ int main()
     }
 
     while (small <= big) {
-        std::cout << small << " ";
+        cout << small << " ";
         ++small;
     }
-    std::cout << std::endl;
+    cout << endl;
 
     return 0;
 }
