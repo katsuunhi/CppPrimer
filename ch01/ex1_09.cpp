@@ -1,6 +1,7 @@
 // sum the numbers from 50 to 100 (use while)
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
@@ -10,7 +11,7 @@ int main()
         ++val;
     }
 
-    std::cout << "the sum is: " << sum << std::endl;
+    cout << "the sum is: " << sum << endl;
 
     return 0;
 }
